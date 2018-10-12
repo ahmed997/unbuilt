@@ -1,0 +1,87 @@
+*
+{
+	font-family : RobotoSlab-Regular, sans-serif;
+}
+
+.header
+{
+	background      : url("../img/Cabinet-3d-render_View07.jpg") center no-repeat fixed;
+	background-size : cover;
+	position        : relative;
+	height          : 90vh;
+}
+
+.header .card-img-overlay
+{
+	position   : absolute;
+	top        : 0;
+	left       : 0;
+	background : rgba(0, 0, 0, 0.6);
+}
+
+.header .card-img-overlay .text h1
+{
+	font-size      : 8rem;
+	color          : #FFF;
+	text-transform : capitalize;
+}
+
+.header .card-img-overlay .text p
+{
+	text-align     : center;
+	margin         : auto;
+	width          : 500px;
+	font-size      : 2.5rem;
+	color          : #FFF;
+	text-transform : capitalize;
+}
+
+.header .card-img-overlay .text-under
+{
+	background : rgba(41, 41, 41, 0.9);
+	position   : absolute;
+	bottom     : 0;
+	width      : 100%;
+	text-align : center;
+	color      : #FFF;
+}
+
+.header .card-img-overlay .text-under span
+{
+	text-transform : none;
+}
+
+.body .col-md
+{
+	padding : 0;
+}
+
+.body .img-text p
+{
+	text-align    : justify;
+	padding-left  : 2rem;
+	padding-right : 2rem;
+}
+
+.footer
+{
+	color : #7E7E7E;
+}
+
+.footer a
+{
+	font-size       : 2rem;
+	text-decoration : none;
+	color           : #7E7E7E;
+}
+
+.footer a:hover
+{
+	color : #000;
+}
+
+@font-face
+{
+	src         : url("../fonts/RobotoSlab-Regular.ttf");
+	font-family : RobotoSlab-Regular;
+}
